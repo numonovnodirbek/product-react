@@ -9,7 +9,7 @@ const LogInPage = () => {
 
   const submit = (e) => {
     e.preventDefault();
-    if (login.username === "admin" && login.password === "12345") {
+    if (login.username === "nodirbek" && login.password === "12345678") {
       localStorage.setItem("auth", true);
       setAuth(true);
       navigate("/");
@@ -24,7 +24,7 @@ const LogInPage = () => {
     <div
       style={{
         background:
-          "url(https://www.shutterstock.com/shutterstock/videos/1059906425/thumb/1.jpg?ip=x480)",
+          "url(https://img.freepik.com/free-vector/white-technology-background_23-2148403783.jpg?w=1800&t=st=1697006608~exp=1697007208~hmac=8552afd5ed449104c31cb737a00c50a5b2dbed4557460274f53f80bf7217f0cb)",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
