@@ -9,8 +9,8 @@ const NavBar = () => {
   
   return (
     <div className="container lg:w-10/12 mx-auto flex justify-between items-center">
-      <Link to="/" className="text-2xl font-bold text-green-500">
-        OnLine Shop
+      <Link to="/" className="text-2xl font-bold text-500">
+        Products
       </Link>
       <div className="w-1/2 flex items-center border-2 py-1 px-4 rounded-md">
         <input
@@ -23,10 +23,7 @@ const NavBar = () => {
           <SearchIcon />
         </div>
       </div>
-      <button onClick={openModal} className="bg-blue-500 py-1 px-3 rounded">AddProduct</button>
-      <div className="cursor-pointer">
-        Account
-      </div>
+      <button onClick={openModal} className="bg-blue-500 text-white py-1 px-3 rounded">AddProduct</button>
       <Modal/>
     </div>
   );

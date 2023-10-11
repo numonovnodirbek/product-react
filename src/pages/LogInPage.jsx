@@ -32,7 +32,7 @@ const LogInPage = () => {
     >
       <div
         style={{ width: "400px", height: "350px" }}
-        className="rounded bg-gray-200 bg-opacity-50 text-center pt-10"
+        className="rounded-[10px] mt-20 border border-blue bg-gray-200 bg-opacity-50 text-center pt-10"
       >
         <h2 className="text-4xl font-semibold pb-10">LogIn</h2>
         <form onSubmit={submit} className="gap-y-4 flex flex-col">
@@ -72,7 +72,7 @@ const LogInPage = () => {
               max={8}
             />
           </div>
-          <button className="py-1 mx-auto px-2 bg-blue-600 rounded w-32 mt-2 text-xl">
+          <button className="py-1 mx-auto px-2 bg-blue-600 text-white rounded w-32 mt-2 text-xl">
             LogIn
           </button>
         </form>

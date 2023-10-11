@@ -125,10 +125,10 @@ const Modal = () => {
           </form>
 
           <p
-            className="absolute top-0 right-3 text-2xl cursor-pointer"
+            className="absolute top-2 right-2 text-2xl cursor-pointer"
             onClick={openModal}
           >
-            x
+            ✖
           </p>
         </div>
       ) : (
